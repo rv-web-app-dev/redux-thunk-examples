@@ -1,0 +1,26 @@
+* {
+    margin : 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header ul, a{
+    list-style: none;
+    text-decoration-line: none;
+    display: flex;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+.img-container{
+    list-style: none; /* Remove the bullets  */ 
+    display:grid; /* Lets use CSS-Grid by providing the value grid for display */
+    grid-template-columns: [col1]20% [col2]20% [col3]20% [col4]20% [col5]20%; /* Create a 5 column area with relative value. */
+    justify-items: center; /* Make all items to be placed in the center of each cell horizontally */
+    align-items: center; /* Make all items to be placed in the center of each cell horizontally */
+    justify-content: space-around; /* Create an equal space around each cell utilizing the empty space available */
+}
+
+.each-image{
+    width: 180px;   
+    max-height: 200px;
+}

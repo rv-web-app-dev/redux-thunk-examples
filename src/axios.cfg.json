@@ -1,0 +1,13 @@
+{
+    "apiData":{
+        "url":"http://api.openweathermap.org/data/2.5/forecast?q=Austin,US&APPID=766ef409afb34068560969bbb8281fe8"
+    },
+    "unsplashCfg":{
+        "url":"photos",
+        "baseURL":"https://api.unsplash.com/",
+        "headers":{
+            "Authorization":"Client-ID a26c8994c9cb16b5e6bbca36cfb78c65bb1f695b0124956373663f9ed1bb82cc"
+        },
+        "timeout": 10000
+    }
+}
