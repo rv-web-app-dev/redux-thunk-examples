@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 import './App.css'
-import ApiData from './containers/ApiData'
+import Weather from './containers/Weather'
 import Images from './containers/Images'
 import { Provider } from 'react-redux';
 import configureStore from './store/configureStore';
@@ -19,7 +19,7 @@ const App = () => (
           </ul>
         </header>
         <Route path="/images" component={Images} />
-        <Route path="/weather" component={ApiData} />
+        <Route path="/weather" component={Weather} />
       </div>
     </BrowserRouter>
   </Provider>
