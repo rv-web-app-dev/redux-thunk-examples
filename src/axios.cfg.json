@@ -11,7 +11,7 @@
         "timeout": 10000
     },
     "openweathermapCfg":{
-        "url":"http://api.openweathermap.org/data/2.5/weather",
+        "url":"http://api.openweathermap.org/data/2.5/forecast",
         "APPID": "766ef409afb34068560969bbb8281fe8"
     }
 }

@@ -24,3 +24,7 @@ header ul, a{
     width: 180px;   
     max-height: 200px;
 }
+
+.tableStyle{
+    width: 100%
+}
